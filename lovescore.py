@@ -27,7 +27,7 @@ def calculate_love_score(name1,name2):
     print(f"Total = {total2}")
     lovescore = str(total) + str(total2)
     print(f'\n\nLove Score = {lovescore}')
-calculate_love_score('Angela Yu','Jack Bauer')
+calculate_love_score(input('enter first person name:'),input('enter second person name:'))
     
         
             
